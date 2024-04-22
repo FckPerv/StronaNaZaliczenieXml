@@ -1,0 +1,146 @@
+grografia::before {
+  content: "Dokument XML przedstawia listę popularnych gier komputerowych.";
+  white-space: pre;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  border-bottom: solid #ccc 2px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+grografia {
+  font-family: "Courier New", Courier, monospace;
+  gap: 20px;
+  text-align: center;
+}
+
+gry::before {
+  display: block;
+  content: "Lista gier" ;
+  white-space: pre;
+  text-align: center;
+  margin: 10px;
+}
+
+gry::after {
+  display: block;
+  content: "Recenzje gier" ;
+  white-space: pre;
+  text-align: center;
+  margin: 10px;
+}
+
+grografia > gry {
+  display: table;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+gra {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+gra > gry 
+{
+  display: table-row;
+}
+
+gra > tytul,
+gra > opis,
+gra > dataWydania {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: table-cell;
+  width: 33%;
+  
+}
+
+gra > recenzja
+{
+  display: none;
+}
+
+recenzje
+{
+  display: table;
+}
+
+
+
+recenzje > recenzja > tresc
+{ 
+  border-bottom: 1px solid #ccc;
+  display: table-cell;
+  width: 620px;
+  text-align: center;
+  height: 50px;
+}
+
+recenzje > recenzja > ocena
+{
+  border-bottom: 1px solid #ccc;
+  display: table-cell;
+  width: 200px;
+  text-align: right;
+  height: 50px;
+}
+
+recenzje > recenzja > recenzent
+{
+  display: none;
+}
+
+recenzje::after
+{
+  display: block;
+  content: "Wydawcy" ;
+  white-space: pre;
+  text-align: center;
+  margin: 10px;
+}
+
+wydawcy
+{
+  display: table;
+}
+
+wydawcy > wydawca > *
+{
+  border-bottom: 1px solid #ccc;
+  display: table-cell;
+  width: 33%;
+  text-align: center;
+  height: 50px;
+}
+
+wydawcy::after
+{
+  display: block;
+  content: "recenzenci" ;
+  white-space: pre;
+  text-align: center;
+  margin: 10px;
+}
+
+recenzenci > recenzent
+{
+  display: table;
+}
+
+recenzent > *
+{
+  border-bottom: 1px solid #ccc;
+  display: table-cell;
+  width: 50vw;
+  text-align: center;
+  height: 50px;
+}
+
+
+

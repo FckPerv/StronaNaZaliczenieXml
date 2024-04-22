@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transformIntoTxt.xsl"?>
+
+<grografia>
+    <gry>
+        <gra>
+            <tytul>The Witcher 3: Wild Hunt</tytul>
+            <opis>RPG osadzone w świecie fantasy, stworzone przez CD Projekt RED.</opis>
+            <recenzja idRecenzji="r1"></recenzja>
+            <dataWydania>2015-05-19</dataWydania>
+            <wydawca idWydawcy="w1"></wydawca>
+        </gra>
+        <gra>
+            <tytul>Red Dead Redemption 2</tytul>
+            <opis>Western akcji stworzony przez Rockstar Games.</opis>
+            <recenzja idRecenzji="r2"></recenzja>
+            <dataWydania>2018-10-26</dataWydania>
+            <wydawca idWydawcy="w2"></wydawca>
+        </gra>
+        <gra>
+            <tytul>Cyberpunk 2077</tytul>
+            <opis>Otwarty świat osadzony w futurystycznym mieście, autorstwa CD Projekt RED.</opis>
+            <recenzja idRecenzji="r3"></recenzja>
+            <dataWydania>2020-12-10</dataWydania>
+            <wydawca idWydawcy="w1"></wydawca>
+        </gra>
+        <gra>
+            <tytul>Assassin's Creed Valhalla</tytul>
+            <opis>Akcja osadzona w erze wikingów, stworzona przez Ubisoft Montreal.</opis>
+            <recenzja idRecenzji="r4"></recenzja>
+            <dataWydania>2020-11-10</dataWydania>
+            <wydawca idWydawcy="w3"></wydawca>
+        </gra>
+        <gra>
+            <tytul>Spider-Man: Miles Morales</tytul>
+            <opis>Akcja osadzona w świecie Marvela, stworzona przez Insomniac Games.</opis>
+            <recenzja idRecenzji="r5"></recenzja>
+            <dataWydania>2020-11-12</dataWydania>
+            <wydawca idWydawcy="w4"></wydawca>
+        </gra>
+
+        <gra>
+            <tytul>God of War</tytul>
+            <opis>Dynamiczna gra akcji z elementami mitologii nordyckiej, stworzona przez Santa Monica Studio.</opis>
+            <recenzja idRecenzji="r6"></recenzja>
+            <dataWydania>2018-04-20</dataWydania>
+            <wydawca idWydawcy="w5"></wydawca>
+        </gra>
+        <gra>
+            <tytul>The Legend of Zelda: Breath of the Wild</tytul>
+            <opis>Akcja-RPG osadzone w fantastycznym świecie Hyrule, stworzone przez Nintendo.</opis>
+            <recenzja idRecenzji="r7"></recenzja>
+            <dataWydania>2017-03-03</dataWydania>
+            <wydawca idWydawcy="w6"></wydawca>
+        </gra>
+        <gra>
+            <tytul>FIFA 22</tytul>
+            <opis>Symulator piłki nożnej, rozwijany przez EA Vancouver.</opis>
+            <recenzja idRecenzji="r8"></recenzja>
+            <dataWydania>2021-10-01</dataWydania>
+            <wydawca idWydawcy="w7"></wydawca>
+        </gra>
+        <gra>
+            <tytul>Call of Duty: Warzone</tytul>
+            <opis>Battle Royale osadzone w realistycznym świecie wojny, rozwijane przez Infinity Ward.</opis>
+            <recenzja idRecenzji="r9"></recenzja>
+            <dataWydania>2020-03-10</dataWydania>
+            <wydawca idWydawcy="w8"></wydawca>
+        </gra>
+        <gra>
+            <tytul>Minecraft</tytul>
+            <opis>Popularna gra sandbox, rozwijana przez Mojang Studios.</opis>
+            <recenzja idRecenzji="r10"></recenzja>
+            <dataWydania>2011-11-18</dataWydania>
+            <wydawca idWydawcy="w9"></wydawca>
+        </gra>
+        <gra>
+            <tytul>Fortnite</tytul>
+            <opis>Battle Royale z elementami budowania, rozwijane przez Epic Games.</opis>
+            <recenzja idRecenzji="r11"></recenzja>
+            <dataWydania>2017-07-25</dataWydania>
+            <wydawca idWydawcy="w10"></wydawca>
+        </gra>
+        <gra>
+            <tytul>Overwatch</tytul>
+            <opis>Hero shooter, rozwijany przez Blizzard Entertainment.</opis>
+            <recenzja idRecenzji="r12"></recenzja>
+            <dataWydania>2016-05-24</dataWydania>
+            <wydawca idWydawcy="w11"></wydawca>
+        </gra>
+        <gra>
+            <tytul>League of Legends</tytul>
+            <opis>Popularna gra MOBA, rozwijana przez Riot Games.</opis>
+            <recenzja idRecenzji="r13"></recenzja>
+            <dataWydania>2009-10-27</dataWydania>
+            <wydawca idWydawcy="w12"></wydawca>
+        </gra>
+    </gry>
+
+    <recenzje>
+        <recenzja idRecenzji="r1">
+            <recenzent idRecenzenta="re1"></recenzent>
+            <tresc>Wciągająca fabuła, świetna oprawa wizualna, jedna z najlepszych gier RPG.</tresc>
+            <ocena>4.9</ocena>
+        </recenzja>
+
+        <recenzja idRecenzji="r2">
+            <recenzent idRecenzenta="re2"></recenzent>
+            <tresc>Niezwykle realistyczny świat westernu, głęboka fabuła, pełne akcji.</tresc>
+            <ocena>4.7</ocena>
+        </recenzja>
+
+        <recenzja idRecenzji="r3">
+            <recenzent idRecenzenta="re3"></recenzent>
+            <tresc>Fascynujący świat cyberpunku, liczne wybory, ale nieco problematyczna
+                optymalizacja.</tresc>
+            <ocena>4.5</ocena>
+        </recenzja>
+
+        <recenzja idRecenzji="r4">
+            <recenzent idRecenzenta="re4"></recenzent>
+            <tresc>Epickie starcia wikingów, interesująca historia, rozbudowany świat.</tresc>
+            <ocena>4.6</ocena>
+        </recenzja>
+
+        <recenzja idRecenzji="r5">
+            <recenzent idRecenzenta="re5"></recenzent>
+            <tresc>Niesamowite doświadczenia związane z byciem Spider-Manem, doskonała grafika.</tresc>
+            <ocena>4.8</ocena>
+        </recenzja>
+
+        <recenzja idRecenzji="r6">
+            <recenzent idRecenzenta="re6"></recenzent>
+            <tresc>Emocjonujące starcia, doskonała oprawa audiowizualna, świetna fabuła.</tresc>
+            <ocena>4.9</ocena>
+        </recenzja>
+
+        <recenzja idRecenzji="r7">
+            <recenzent idRecenzenta="re7"></recenzent>
+            <tresc>Wspaniała eksploracja fantastycznego świata, unikalne rozwiązania w grze.</tresc>
+            <ocena>4.8</ocena>
+        </recenzja>
+
+        <recenzja idRecenzji="r8">
+            <recenzent idRecenzenta="re8"></recenzent>
+            <tresc>Najnowsza edycja z serii FIFA, poprawiona fizyka piłki, udoskonalony tryb
+                kariery.</tresc>
+            <ocena>4.5</ocena>
+        </recenzja>
+
+        <recenzja idRecenzji="r9">
+            <recenzent idRecenzenta="re9"></recenzent>
+            <tresc>Intensywne bitwy w trybie Battle Royale, różnorodne bronie i taktyki.</tresc>
+            <ocena>4.7</ocena>
+        </recenzja>
+
+        <recenzja idRecenzji="r10">
+            <recenzent idRecenzenta="re10"></recenzent>
+            <tresc>Kreatywna swoboda w budowaniu, ogromne możliwości tworzenia.</tresc>
+            <ocena>4.6</ocena>
+        </recenzja>
+
+        <recenzja idRecenzji="r11">
+            <recenzent idRecenzenta="re11"></recenzent>
+            <tresc>Popularna gra Battle Royale, dynamiczna rozgrywka, liczne aktualizacje.</tresc>
+            <ocena>4.8</ocena>
+        </recenzja>
+
+        <recenzja idRecenzji="r12">
+            <recenzent idRecenzenta="re12"></recenzent>
+            <tresc>Intensywne starcia z unikalnymi bohaterami, doskonała oprawa audiowizualna.</tresc>
+            <ocena>4.9</ocena>
+        </recenzja>
+
+        <recenzja idRecenzji="r13">
+            <recenzent idRecenzenta="re13"></recenzent>
+            <tresc>Rywalizacja w trybie MOBA, rozbudowane ligi i turnieje.</tresc>
+            <ocena>4.7</ocena>
+        </recenzja>
+
+
+    </recenzje>
+    <wydawcy>
+        <wydawca idWydawcy="w1">
+            <nazwa>CD Projekt RED</nazwa>
+            <lokalizacja>Warszawa, Polska</lokalizacja>
+            <produkcje>The Witcher series, Cyberpunk 2077</produkcje>
+        </wydawca>
+
+        <wydawca idWydawcy="w2">
+            <nazwa>Rockstar Games</nazwa>
+            <lokalizacja>New York, USA</lokalizacja>
+            <produkcje>Grand Theft Auto series, Red Dead Redemption series</produkcje>
+        </wydawca>
+
+        <wydawca idWydawcy="w3">
+            <nazwa>Ubisoft</nazwa>
+            <lokalizacja>Montreuil, Francja</lokalizacja>
+            <produkcje>Assassin's Creed series, Far Cry series</produkcje>
+        </wydawca>
+
+        <wydawca idWydawcy="w4">
+            <nazwa>Insomniac Games</nazwa>
+            <lokalizacja>Burbank, USA</lokalizacja>
+            <produkcje>Spider-Man series, Ratchet and Clank series</produkcje>
+        </wydawca>
+
+        <wydawca idWydawcy="w5">
+            <nazwa>Santa Monica Studio</nazwa>
+            <lokalizacja>Santa Monica, USA</lokalizacja>
+            <produkcje>God of War series</produkcje>
+        </wydawca>
+
+        <wydawca idWydawcy="w6">
+            <nazwa>Nintendo</nazwa>
+            <lokalizacja>Kyoto, Japonia</lokalizacja>
+            <produkcje>The Legend of Zelda series, Super Mario series</produkcje>
+        </wydawca>
+
+        <wydawca idWydawcy="w7">
+            <nazwa>EA Vancouver</nazwa>
+            <lokalizacja>Vancouver, Kanada</lokalizacja>
+            <produkcje>FIFA series, Madden NFL series</produkcje>
+        </wydawca>
+
+        <wydawca idWydawcy="w8">
+            <nazwa>Infinity Ward</nazwa>
+            <lokalizacja>Los Angeles, USA</lokalizacja>
+            <produkcje>Call of Duty series</produkcje>
+        </wydawca>
+
+        <wydawca idWydawcy="w9">
+            <nazwa>Mojang Studios</nazwa>
+            <lokalizacja>Stockholm, Szwecja</lokalizacja>
+            <produkcje>Minecraft</produkcje>
+        </wydawca>
+
+        <wydawca idWydawcy="w10">
+            <nazwa>Epic Games</nazwa>
+            <lokalizacja>Cary, USA</lokalizacja>
+            <produkcje>Fortnite</produkcje>
+        </wydawca>
+
+        <wydawca idWydawcy="w11">
+            <nazwa>Blizzard Entertainment</nazwa>
+            <lokalizacja>Irvine, USA</lokalizacja>
+            <produkcje>Overwatch, World of Warcraft series</produkcje>
+        </wydawca>
+
+        <wydawca idWydawcy="w12">
+            <nazwa>Riot Games</nazwa>
+            <lokalizacja>Los Angeles, USA</lokalizacja>
+            <produkcje>League of Legends</produkcje>
+        </wydawca>
+
+    </wydawcy>
+    <recenzenci>
+        <recenzent idRecenzenta="re1">
+            <ksywa>GameMaster</ksywa>
+            <firma>Game Reviews Co.</firma>
+        </recenzent>
+
+        <recenzent idRecenzenta="re2">
+            <ksywa>WildWestGamer</ksywa>
+            <firma>Western Games Weekly</firma>
+        </recenzent>
+
+        <recenzent idRecenzenta="re3">
+            <ksywa>CyberpunkExplorer</ksywa>
+            <firma>Futuristic Gaming Magazine</firma>
+        </recenzent>
+
+        <recenzent idRecenzenta="re4">
+            <ksywa>VikingSagaPlayer</ksywa>
+            <firma>Nordic Adventures Gazette</firma>
+        </recenzent>
+
+        <recenzent idRecenzenta="re5">
+            <ksywa>SpiderFan</ksywa>
+            <firma>Marvel Games Insider</firma>
+        </recenzent>
+
+
+        <recenzent idRecenzenta="re6">
+            <ksywa>MythicalGamer</ksywa>
+            <firma>Mythology Gaming Chronicles</firma>
+        </recenzent>
+
+        <recenzent idRecenzenta="re7">
+            <ksywa>ZeldaMaster</ksywa>
+            <firma>Fantasy Games Journal</firma>
+        </recenzent>
+
+        <recenzent idRecenzenta="re8">
+            <ksywa>SoccerPro</ksywa>
+            <firma>Sports Game Experts</firma>
+        </recenzent>
+
+        <recenzent idRecenzenta="re9">
+            <ksywa>WarzoneCommander</ksywa>
+            <firma>War Games Strategy</firma>
+        </recenzent>
+
+        <recenzent idRecenzenta="re10">
+            <ksywa>CreativeBuilder</ksywa>
+            <firma>Building Games Monthly</firma>
+        </recenzent>
+
+        <recenzent idRecenzenta="re11">
+            <ksywa>BattleRoyaleMaster</ksywa>
+            <firma>Fortnite Insider</firma>
+        </recenzent>
+
+        <recenzent idRecenzenta="re12">
+            <ksywa>HeroShooterFanatic</ksywa>
+            <firma>Shooting Games Journal</firma>
+        </recenzent>
+
+        <recenzent idRecenzenta="re13">
+            <ksywa>MobaEnthusiast</ksywa>
+            <firma>MOBA Games Weekly</firma>
+        </recenzent>
+
+    </recenzenci>
+
+</grografia>

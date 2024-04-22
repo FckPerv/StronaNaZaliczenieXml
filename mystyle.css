@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.cd__main {
+    background: pink !important;
+    font-family: 'Pacifico', cursive !important;
+    min-height: 450px;
+}
+
+.heart {
+    position: fixed;
+    font-size: 1.5rem;
+    top: -1vh;
+    transform: translateY(0);
+    animation: fall 3s linear forwards;
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(0vh) translateX(-10vw);
+    }
+
+    to {
+        transform: translateY(105vh) translateX(10vw);
+    }
+}
+
+@keyframes circle
+{
+    0%{
+        transform: translate(10px,10px);
+    }
+    5%{
+        transform: translate(50px,30px);
+    }
+    10%{
+        transform: translate(90px,50px);
+    }
+    15%{
+        transform: translate(130px,70px);
+    }
+    20%{
+        transform: translate(170px,90px);
+    }
+    25%{
+        transform: translate(210px,110px);
+    }
+    30%{
+        transform: translate(250px,90px);
+    }
+    35%{
+        transform: translate(290px,70px);
+    }
+    40%{
+        transform: translate(330px,50px);
+    }
+    45%{
+        transform: translate(370px,30px);
+    }
+    50%{
+        transform: translate(400px,10px);
+    }
+    55%{
+        transform: translate(370px,-10px);
+    }
+    60%{
+        transform: translate(330px,-30px);
+    }
+    65%{
+        transform: translate(290px,-50px);
+    }
+    70%{
+        transform: translate(250px,-70px);
+    }
+    75%{
+        transform: translate(210px,-90px);
+    }
+    80%{
+        transform: translate(170px,-70px);
+    }
+    85%{
+        transform: translate(130px,-50px);
+    }
+    90%{
+        transform: translate(90px,-30px);
+    }
+    95%{
+        transform: translate(50px,-10px);
+    }
+    100%{
+        transform: translate(10px,10px);
+    }
+
+}
+
+body {
+    background-color: rgba(248, 156, 204, 1);
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    height: 85%;
+    position: relative;
+
+}
+
+#header {
+    margin: auto;
+    height: 10%;
+    width: 98%;
+    border-bottom: solid;
+    border-color: pink;
+}
+
+#title {
+    width: 100%;
+    text-align: center;
+}
+
+ul.lista li {
+    display: block;
+    border: solid;
+    width: 200px;
+    border-color: pink;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+ul.lista {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translateY(-60%);
+    transform: translateY(-60%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+ul li:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#information {
+    float: left;
+    width: 40%;
+    height: 60%;
+    border: solid;
+    margin-top: 10%;
+    margin-left: 8%;
+    border-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    text-align: left;
+    padding-left: 2%;
+}
+
+#drawing {
+    float: right;
+    width: 40%;
+    height: 60%;
+    border: solid;
+    margin-top: 10%;
+    margin-right: 8%;
+    border-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#arrowLeft {
+    float: left;
+    width: 10%;
+    height: 80%;
+    text-align: center;
+    line-height: 100%;
+}
+
+#arrowRight {
+    float: right;
+    width: 10%;
+    height: 80%;
+    line-height: 100%;
+}
+
+#container {
+    float: left;
+    height: 80%;
+    width: 80%;
+    overflow: visible;
+}
+
+#serduszko
+{
+  animation: circle 5s linear infinite
+}
+
+#diagram
+{
+    margin-top: 2%;
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0 ,0 ,0.2);
+    margin-right: 4%;
+}
+
+#codeplace
+{
+    overflow: scroll;
+    height: 100%;
+    background-color: rgba(0, 0 ,0 ,0.2);
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+#txtTransform
+{
+    width: 400px;
+    height: 300px;
+}
+
+.contenerF
+{
+    display: block;
+}
+
+.element
+{
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.podelement
+{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

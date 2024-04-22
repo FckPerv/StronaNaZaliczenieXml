@@ -1,0 +1,92 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="grografia">
+<xs:complexType>
+    <xs:sequence>
+        <xs:element name="gry">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name ="gra" type="graType" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+        <xs:element name="recenzje">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="recenzja" type="recenzjaType" maxOccurs="unbounded">
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+        <xs:element name="wydawcy">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="wydawca" type="wydawcaType" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+        <xs:element name="recenzenci">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="recenzent" type="recenzentType" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+    </xs:sequence>
+</xs:complexType>
+</xs:element>
+
+<xs:complexType name="graType">
+    <xs:sequence>
+        <xs:element name="tytul" type="xs:string"/>
+        <xs:element name="opis" type="xs:string"/>
+        <xs:element name="recenzja">
+            <xs:complexType>
+                <xs:attribute use="required" name="idRecenzji" type="xs:IDREF" />
+            </xs:complexType>
+            </xs:element>
+        <xs:element name="dataWydania" type="xs:date"/>
+
+        <xs:element name="wydawca">
+            <xs:complexType>
+                        <xs:attribute use="required" name="idWydawcy" type="xs:IDREF"/>
+            </xs:complexType>
+        </xs:element>
+    </xs:sequence>
+</xs:complexType>
+
+
+<xs:complexType name="recenzjaType">
+    <xs:sequence>
+        <xs:element  name="recenzent">
+            <xs:complexType>
+                <xs:attribute name="idRecenzenta" use="required" type="xs:IDREF" />
+            </xs:complexType>
+        </xs:element>
+        <xs:element name="tresc" type="xs:string"/>
+        <xs:element name="ocena">
+            <xs:simpleType>
+                <xs:restriction base="xs:decimal">
+                    <xs:minInclusive value="0"/>
+                    <xs:maxInclusive value="5"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:element>
+    </xs:sequence>
+    <xs:attribute name="idRecenzji" use="required" type="xs:ID"/>
+</xs:complexType>
+<xs:complexType name="wydawcaType">
+    <xs:sequence>
+        <xs:element name="nazwa"/>
+        <xs:element name="lokalizacja"/>
+        <xs:element name="produkcje"/>
+    </xs:sequence>
+    <xs:attribute name="idWydawcy" type="xs:ID" use="required"/>
+</xs:complexType>
+<xs:complexType name="recenzentType">
+    <xs:sequence>
+        <xs:element name="ksywa"/>
+        <xs:element name="firma"/>
+    </xs:sequence>
+    <xs:attribute name="idRecenzenta" type="xs:ID" use="required"/>
+</xs:complexType>
+</xs:schema>
